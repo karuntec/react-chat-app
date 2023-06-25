@@ -44,7 +44,7 @@ class ChatApp extends Component {
     }
 
     this.setState(prevState => ({
-      textList: [...prevState.commentsList, newText],
+      textList: [...prevState.textList, newText],
       textInput: '',
     }))
   }

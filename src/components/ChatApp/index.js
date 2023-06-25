@@ -102,7 +102,7 @@ class ChatApp extends Component {
                   onChange={this.onChangeTextInput}
                 />
                 <button className="button" type="submit">
-                  Add
+                  Send
                 </button>
               </form>
             </div>

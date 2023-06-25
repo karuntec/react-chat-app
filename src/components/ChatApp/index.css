@@ -1,0 +1,119 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.initial {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+
+.user-name {
+  display: flex;
+  flex-direction: column;
+}
+.user {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: black;
+  font-weight: 100;
+}
+
+.designation {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #cbd2d9;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.chat-container {
+  background-color: #cbd2d9;
+  height: 100vh;
+  width: 100vw;
+}
+
+.chat-header {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+.paragraph {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #64748b;
+}
+.input-box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+
+input {
+  width: 500px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+  border-color: #333;
+  box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-left: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
